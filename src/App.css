@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.todo-home{
+  background-image: linear-gradient(140deg,blue,rgb(0, 183, 255),blue,navy);
+min-height: 100vh;
+}
+.inp-box{
+  background: rgba(255, 255, 255, .3);
+  border: none;
+  border-radius: 10px;
+  outline-color:aqua;
+  padding: 5px;
+  color: navy;
+  font-weight: 700;
+}
+.inp-box::placeholder{
+  color: white;
+}
+.msgbox{
+  width: 50%;
+  max-width: 450px;
+  min-width: 250px;
+  background-image: radial-gradient(navy,rgb(0, 102, 255),blue);
+  border-radius: 20px;
+  position: relative;
+}
+.createtime{
+ font-size: small;
+}
+.textmsg{
+ text-overflow: ellipsis;
+  
+}
+input{
+  cursor: pointer;
+}
+
+@media(max-width:255px){
+  .msgbox{
+   
+    min-width: 90%;
+    
+  }
+  
+}
