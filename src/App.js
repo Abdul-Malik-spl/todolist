@@ -6,11 +6,12 @@ import {HashRouter,Routes,Route} from 'react-router-dom'
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <Todo/>
+      {/* <HashRouter>
         <Routes>
-          <Route path='/' element={<Todo/>}/>
-        </Routes>
-      </HashRouter>
+          <Route path='/' element={<Todo/>}/> */}
+        {/* </Routes>
+      </HashRouter> */}
     </div>
   );
 }
